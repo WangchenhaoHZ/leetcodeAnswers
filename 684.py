@@ -49,5 +49,5 @@ class Solution:
             parent[v2] = v1_root
     
 print(
-    Solution().findRedundantConnection(edges = [[9,10],[5,8],[2,6],[1,5],[3,8],[4,9],[8,10],[4,10],[6,8],[7,9]])
+    Solution().findRedundantConnection(edges = [[1,2], [2,3], [3,4], [2,3], [1,4]])
 )

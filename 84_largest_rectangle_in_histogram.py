@@ -34,4 +34,4 @@ class Solution:
         return max
 
 
-print(Solution().largestRectangleArea([2,1,5,6,2,3]))
+print(Solution().largestRectangleArea([5,4,3,2,1]))

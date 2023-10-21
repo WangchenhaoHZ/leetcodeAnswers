@@ -6,7 +6,8 @@ class Solution:
         # hash table
         for index_end, char in enumerate(s):
             last_appear_index = last_appear_lookup.get(char, -1)
-            if last_appear_index != -1: index_start = max(index_start, last_appear_index + 1)
+            if last_appear_index != -1: 
+                index_start = max(index_start, last_appear_index + 1)
             ans = max(ans, index_end-index_start + 1)
             last_appear_lookup[char] = index_end
         return ans

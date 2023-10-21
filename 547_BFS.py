@@ -1,5 +1,7 @@
 from typing import List
 
+# using full BFS to find out the clique number of undirected map
+
 class Solution:
     def findCircleNum(self, isConnected: List[List[int]]) -> int:
         city_num = len(isConnected)

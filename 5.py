@@ -1,5 +1,6 @@
 class Solution:
     def longestPalindrome(self, s: str) -> str:
+        # greedy strategy: if s[i:j] is palindrom, s[i+1:j-1] must be
         max = 1
         argmax = s[0:1]
         for i_mid in range(len(s)):
